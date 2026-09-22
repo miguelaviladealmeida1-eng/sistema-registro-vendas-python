@@ -45,3 +45,24 @@ O arquivo `dados_vendas.json` será criado automaticamente após o primeiro cada
 ## Objetivo
 
 Projeto acadêmico para demonstrar conhecimentos iniciais em Python, lógica de programação, manipulação de dados e desenvolvimento de aplicações de linha de comando.
+
+
+## Módulo MySQL
+
+O projeto também possui um módulo de banco de dados MySQL preparado para uma futura evolução da aplicação:
+
+- Modelagem de categorias, produtos, clientes, vendas e itens de venda
+- Chaves primárias e estrangeiras
+- Índices e constraints
+- Consultas com JOIN e agregações
+- View para resumo de vendas
+- Dados de teste
+
+Arquivos em `database/mysql/`:
+
+- `01_schema.sql`
+- `02_seed.sql`
+- `03_queries.sql`
+- `README.md`
+
+Esse módulo pode futuramente ser integrado ao Python e servir como base para uma API/backend.
